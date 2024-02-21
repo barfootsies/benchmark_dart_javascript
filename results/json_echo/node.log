@@ -1,0 +1,23 @@
+v20.11.1
+
+
+Running 30s test @ http://localhost:3000/
+  10 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.11ms  358.46us   6.31ms   84.30%
+    Req/Sec     0.91k   181.52     1.21k    80.17%
+  Latency Distribution
+     50%    0.99ms
+     75%    1.12ms
+     90%    1.67ms
+     99%    2.44ms
+  271986 requests in 30.01s, 6.24GB read
+Requests/sec:   9062.44
+Transfer/sec:    213.00MB
+
+
+
+
+Command terminated by signal 15
+28.76user 6.95system 0:37.24elapsed 95%CPU (0avgtext+0avgdata 91412maxresident)k
+0inputs+0outputs (0major+1359001minor)pagefaults 0swaps

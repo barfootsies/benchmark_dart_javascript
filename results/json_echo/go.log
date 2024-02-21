@@ -1,0 +1,25 @@
+go version go1.21.6 linux/amd64
+
+
+
+
+Running 30s test @ http://localhost:3000/
+  10 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.60ms  363.25us   6.04ms   71.98%
+    Req/Sec   626.61     46.76   790.00     78.47%
+  Latency Distribution
+     50%    1.55ms
+     75%    1.80ms
+     90%    2.07ms
+     99%    2.65ms
+  187170 requests in 30.01s, 4.30GB read
+Requests/sec:   6236.18
+Transfer/sec:    146.64MB
+
+
+
+
+Command terminated by signal 15
+214.06user 35.55system 0:37.23elapsed 670%CPU (0avgtext+0avgdata 26764maxresident)k
+0inputs+0outputs (0major+1644347minor)pagefaults 0swaps

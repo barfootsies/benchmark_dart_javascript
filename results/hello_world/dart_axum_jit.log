@@ -1,0 +1,31 @@
+Dart SDK version: 3.4.0-116.0.dev (dev) (Tue Feb 6 12:02:17 2024 -0800) on "linux_x64"
+cargo 1.77.0-nightly (1a2666ddd 2023-12-17)
+
+
+build only
+
+[1m> cargo build --release[0m (pwd: /home/sebastian/delme/serverpod/benchmark_suite/dart_axum_tokio/rust, env: {})
+    Finished release [optimized] target(s) in 0.04s
+
+[1m> cargo build --release[0m (pwd: /home/sebastian/delme/serverpod/benchmark_suite/dart_axum_tokio/rust, env: {})
+    Finished release [optimized] target(s) in 0.04s
+Running 30s test @ http://localhost:3000
+  10 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    47.21us   10.86us   1.17ms   79.02%
+    Req/Sec    20.67k   661.58    22.38k    69.04%
+  Latency Distribution
+     50%   46.00us
+     75%   52.00us
+     90%   59.00us
+     99%   77.00us
+  6189862 requests in 30.10s, 749.70MB read
+Requests/sec: 205643.73
+Transfer/sec:     24.91MB
+
+
+
+
+Command terminated by signal 15
+90.22user 73.58system 0:37.35elapsed 438%CPU (0avgtext+0avgdata 258248maxresident)k
+0inputs+48outputs (0major+177736minor)pagefaults 0swaps

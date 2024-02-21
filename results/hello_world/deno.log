@@ -1,0 +1,25 @@
+deno 1.40.5 (release, x86_64-unknown-linux-gnu)
+v8 12.1.285.27
+typescript 5.3.3
+
+
+Running 30s test @ http://localhost:3000
+  10 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    71.92us   12.39us 532.00us   75.83%
+    Req/Sec    13.78k   433.18    14.60k    69.73%
+  Latency Distribution
+     50%   66.00us
+     75%   83.00us
+     90%   88.00us
+     99%  108.00us
+  4127611 requests in 30.10s, 590.46MB read
+Requests/sec: 137130.60
+Transfer/sec:     19.62MB
+
+
+
+
+Command terminated by signal 15
+13.09user 22.18system 0:37.32elapsed 94%CPU (0avgtext+0avgdata 71208maxresident)k
+0inputs+0outputs (0major+8760minor)pagefaults 0swaps

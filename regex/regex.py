@@ -1,0 +1,8 @@
+import re
+
+msg = "FLRD0056B>OGFLR,qAS,LSZI2:/215553h4730.50N\\00757.08En000/000/A=001975 !W56! id3ED0056B -019fpm +0.0rot 22.5dB -9.0kHz gps1x1"
+
+N = 1000000
+pattern = re.compile(r'(?P<time>\d+)h')
+for i in range(N):
+    match = pattern.search(msg)

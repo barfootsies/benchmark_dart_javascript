@@ -1,0 +1,11 @@
+$ /usr/bin/time python3 regex.py
+0.41user 0.01system 0:00.42elapsed 100%CPU (0avgtext+0avgdata 9600maxresident)k
+0inputs+0outputs (0major+1179minor)pagefaults 0swaps
+
+$ /usr/bin/time ./regex_swift
+6.29user 0.00system 0:06.30elapsed 99%CPU (0avgtext+0avgdata 16640maxresident)k
+0inputs+0outputs (0major+623minor)pagefaults 0swaps
+
+
+Swift v5.9.1 (build options see Makefile)
+Python 3.11.8

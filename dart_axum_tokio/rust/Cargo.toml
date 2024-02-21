@@ -1,0 +1,16 @@
+[package]
+name = "dart_axum_tokio_sever"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+anyhow = { version = "1.0.64", features = ["backtrace"] }
+axum = "0.7.4"
+flutter_rust_bridge = { path = "../vendor/flutter_rust_bridge/frb_rust" }
+lazy_static = "1.4.0"
+log = "0.4.19"
+simd-json = "0.13.8"
+tokio = "1.36.0"

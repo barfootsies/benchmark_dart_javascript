@@ -1,0 +1,23 @@
+Dart SDK version: 3.4.0-116.0.dev (dev) (Tue Feb 6 12:02:17 2024 -0800) on "linux_x64"
+
+
+Running 30s test @ http://localhost:3000
+  10 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   201.30us   27.62us   1.12ms   91.92%
+    Req/Sec     4.97k   165.81     5.69k    71.35%
+  Latency Distribution
+     50%  195.00us
+     75%  206.00us
+     90%  224.00us
+     99%  288.00us
+  1489162 requests in 30.10s, 289.72MB read
+Requests/sec:  49474.81
+Transfer/sec:      9.63MB
+
+
+
+
+Command terminated by signal 15
+18.38user 22.88system 0:37.33elapsed 110%CPU (0avgtext+0avgdata 165616maxresident)k
+0inputs+0outputs (0major+57341minor)pagefaults 0swaps

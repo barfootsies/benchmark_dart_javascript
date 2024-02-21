@@ -1,0 +1,26 @@
+cargo 1.77.0-nightly (1a2666ddd 2023-12-17)
+
+
+
+    Finished release [optimized] target(s) in 0.03s
+
+Running 30s test @ http://localhost:3000/
+  10 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   831.16us   44.84us   1.71ms   71.22%
+    Req/Sec     1.21k    58.41     1.40k    70.12%
+  Latency Distribution
+     50%  809.00us
+     75%    0.88ms
+     90%    0.90ms
+     99%    0.93ms
+  361249 requests in 30.10s, 8.29GB read
+Requests/sec:  12001.70
+Transfer/sec:    282.01MB
+
+
+
+
+Command terminated by signal 15
+31.24user 3.95system 0:37.31elapsed 94%CPU (0avgtext+0avgdata 4864maxresident)k
+0inputs+0outputs (0major+398minor)pagefaults 0swaps
